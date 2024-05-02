@@ -162,7 +162,7 @@ def get_radar_chart(input_data):
        height=400,  # Increase the height of the figure
        width=400,
        font=dict(
-           size=30,  # Set the font size
+           size=14,  # Set the font size
            color='red'  # Set the font color
        )
    )
