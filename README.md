@@ -19,22 +19,22 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
    
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/PrakashMahatra/breast_cancer_app.git
 
 2.Navigate to the project directory:
 
         
-        cd your_repository
+   cd https://github.com/PrakashMahatra/breast_cancer_app
 
 
 3.Install the required dependencies: 
         
-        pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 4.Run the Streamlit app:
            
-           streamlit run app.py
+ streamlit run app.py
 
 ## Usage
 Once the app is running, open your web browser and navigate to the address provided by Streamlit. Adjust the sliders to update the measurements or connect the app to your cytology lab for automatic diagnosis. The predictions will be displayed along with probabilities of being benign or malignant.
