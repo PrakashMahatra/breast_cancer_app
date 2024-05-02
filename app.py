@@ -159,8 +159,8 @@ def get_radar_chart(input_data):
            )),
        showlegend=True,
        template='plotly',
-       height=400,  # Increase the height of the figure
-       width=400,
+       height=600,  # Increase the height of the figure
+       width=600,
        font=dict(
            size=14,  # Set the font size
            color='red'  # Set the font color
@@ -228,7 +228,7 @@ def main():
 
    with st.container():
        st.title("Breast Cancer Predictor")
-       st.header(
+       st.write(
            "Kindly link this application to your cytology laboratory to aid in diagnosing breast cancer from your tissue samples. Using a machine learning model(Random forest), this app determines whether a breast mass is benign or malignant by analyzing the measurements provided by your cytology lab. Additionally, you have the option to manually adjust the measurements using the sliders available in the sidebar. ")
 
 
