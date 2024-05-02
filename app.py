@@ -159,8 +159,8 @@ def get_radar_chart(input_data):
            )),
        showlegend=True,
        template='plotly',
-       height=1000,  # Increase the height of the figure
-       width=1500,
+       height=400,  # Increase the height of the figure
+       width=400,
        font=dict(
            size=30,  # Set the font size
            color='red'  # Set the font color
@@ -225,46 +225,7 @@ def main():
   # CSS beautify
    with open("style.css") as f:
         st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-        st.markdown(
-            """
-           <style>
-           [data-testid="stSidebar"][aria-expanded="true"]{
-               min-width: 600px;
-               max-width: 600px;
-           }
-           """
-           ,unsafe_allow_html=True,
-        )
-        st.markdown(
-            """
-            <style>
-            .element-container.st-emotion-cache-5tx4tc .stSlider p {
-                font-size: 28px !important; 
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-        st.markdown(
-            """
-            <style>
-            .element-container.st-emotion-cache-5tx4tc .stMarkdown h2 {
-                font-size: 35px !important; 
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-        st.markdown(
-            """
-            <style>
-            .st-emotion-cache-eqffof p, .st-emotion-cache-1629p8f h3 {
-                font-size: 25px !important; /* Adjust the font size */
-            }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
+        
 
 
    input_data = add_sidebar()
