@@ -164,11 +164,6 @@ def get_radar_chart(input_data):
        font=dict(
            size=30,  # Set the font size
            color='red'  # Set the font color
-       ),
-       legend=dict(
-           font=dict(
-               size=30  # Set the legend font size
-           )
        )
    )
 
