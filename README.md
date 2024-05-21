@@ -1,6 +1,6 @@
 
 # Breast Cancer Predictor
-
+https://breastcancerapp-ihgmauu64buzig2fgyd3xz.streamlit.app/ 
 ## Overview
 
 This Streamlit web application assists in diagnosing breast cancer based on cell nuclei measurements. It predicts whether a breast mass is benign or malignant using a machine learning model trained on cytology lab data. Users can adjust the measurements manually using sliders or connect the app to their cytology lab for automatic diagnosis.
